@@ -6,6 +6,7 @@ A modern personal portfolio website showcasing my projects, research, and techni
 
 ## Preview
 <a href="https://cystal-nest-clearing.vercel.app"> <strong>➥ Live Demo</strong></a>
+
 <img src="./images/preview.png" alt="Preview" width="800"/>
 
 ---
