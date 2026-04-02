@@ -2,7 +2,7 @@
 
 A modern personal portfolio website showcasing my projects, research, and technical skills in Artificial Intelligence and Cybersecurity.
 
-🔗 Live Demo: https://69bad5267cb841091e4423ba--effortless-haupia-6135c3.netlify.app/
+🔗 <a href="https://cystal-nest-clearing.vercel.app/#booking"> <strong>➥ Live Demo</strong></a>
 
 ---
 
