@@ -2,7 +2,11 @@
 
 A modern personal portfolio website showcasing my projects, research, and technical skills in Artificial Intelligence and Cybersecurity.
 
-🔗 <a href="https://cystal-nest-clearing.vercel.app/#booking"> <strong>➥ Live Demo</strong></a>
+---
+
+## Preview
+<a href="https://cystal-nest-clearing.vercel.app"> <strong>➥ Live Demo</strong></a>
+<img src="./images/preview.png" alt="Preview" width="800"/>
 
 ---
 
@@ -38,3 +42,17 @@ The goal of this website is to highlight my work and provide a professional onli
 ##  License
 
 This project is open-source and available under the MIT License.
+
+---
+
+## 📂 Project Structure
+
+/project-root <br>
+├── index.html <br>
+├── style.css <br>
+├── script.js <br>
+├── admin.html <br>
+├── assets/ <br>
+│ ├── images/ <br>
+│ └── Reinigung1/ <br>
+└── README.md
