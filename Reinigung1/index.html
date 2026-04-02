@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrystalNest Cleaning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+
+ <header class="site-header">
+      <div class="container navbar">
+        <a href="#home" class="brand">
+            <div class="brand-logo"> <i> <img src="images/logo.png" alt="CrystalNest Clearning Logo"> </i></div>
+              <div class="brand-text">
+                <strong>CrystalNest Cleaning</strong>
+                  <span>Premium home &amp; office care</span>
+            </div>
+        </a>
+
+  <nav class="nav-links">
+    <a href="#home" data-i18n="nav.home">Home</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    <a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a>
+    <a href="#booking" data-i18n="nav.booking">Booking</a>
+    <a href="#" class="lang-switch">🌐 EN</a>
+  </nav>
+
+  <div class="nav-actions">
+       <div class="theme-toggle">
+          <i data-lucide="sun"></i>
+          <button id="themeToggle" aria-label="Toggle dark mode"></button>
+          <i data-lucide="moon"></i>
+       </div>
+          <a class="btn btn-primary" href="#booking">
+        <span data-i18n="nav.bookNow">Book Now</span>
+          </a>
+  </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+
+<div class="container mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <a href="#home">
+      <i data-lucide="home"></i>
+      <span data-i18n="nav.home">Home</span>
+    </a>
+    <a href="#about">
+      <i data-lucide="user"></i>
+      <span data-i18n="nav.about">About</span>
+    </a>
+    <a href="#services">
+      <i data-lucide="sparkles"></i>
+      <span data-i18n="nav.services">Services</span>
+    </a>
+    <a href="#pricing">
+      <i data-lucide="tag"></i>
+      <span data-i18n="nav.pricing">Pricing</span>
+    </a>
+    <a href="#faq">
+      <i data-lucide="help-circle"></i>
+      <span data-i18n="nav.faq">FAQ</span>
+    </a>
+    <a href="#testimonials">
+      <i data-lucide="message-square"></i>
+      <span data-i18n="nav.testimonials">Testimonials</span>
+    </a>
+    <a href="#booking">
+      <i data-lucide="calendar"></i>
+      <span data-i18n="nav.booking">Booking</span>
+    </a>
+
+    <a href="#" class="lang-switch">🌐 EN</a>
+
+    <div class="theme-toggle" style="width: fit-content;">
+      <i data-lucide="sun"></i>
+      <button id="themeToggleMobile" aria-label="Toggle dark mode"></button>
+      <i data-lucide="moon"></i>
+    </div>
+
+    <a class="btn btn-primary" href="#booking">
+      <span data-i18n="nav.bookNow">Book Now</span>
+    </a>
+  </div>
+</div>
+    </header>
+
+   <main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div data-animate>
+        <div class="trust-pill">
+          <i data-lucide="badge-check"></i>
+          <span data-i18n="hero.trust">Trusted by 2,500+ happy clients</span>
+        </div>
+
+        <h1 data-i18n="hero.title">
+          Premium cleaning services for homes that deserve to shine.
+        </h1>
+
+        <p data-i18n="hero.subtitle">
+          Fast booking, trained professionals, eco-friendly products, and a polished
+          experience from first click to final sparkle.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#booking">
+            <span data-i18n="hero.quote">Get a Free Quote</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+
+          <a class="btn btn-secondary" href="#services">
+            <span data-i18n="hero.explore">Explore Services</span>
+          </a>
+        </div>
+
+        <div class="mini-trust">
+          <span>
+            <i data-lucide="shield-check"></i>
+            <span data-i18n="hero.insured">Fully insured</span>
+          </span>
+
+          <span>
+            <i data-lucide="leaf"></i>
+            <span data-i18n="hero.eco">Eco-safe options</span>
+          </span>
+
+          <span>
+            <i data-lucide="badge-check"></i>
+            <span data-i18n="hero.satisfaction">100% satisfaction</span>
+          </span>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box card">
+            <strong>4.9/5</strong>
+            <span data-i18n="hero.rating">Average rating</span>
+          </div>
+
+          <div class="stat-box card">
+            <strong>24/7</strong>
+            <span data-i18n="hero.support">Support</span>
+          </div>
+
+          <div class="stat-box card">
+            <strong>100%</strong>
+            <span data-i18n="hero.staff">Insured staff</span>
+          </div>
+
+          <div class="stat-box card">
+            <strong data-i18n="hero.sameDayStrong">Same Day</strong>
+            <span data-i18n="hero.available">Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="trust-badges">
+  <div class="container">
+    <div class="process-grid">
+      <div class="process-card card" data-animate>
+        <div class="process-number">1</div>
+        <h3 data-i18n="process.step1Title">Choose your service</h3>
+        <p data-i18n="process.step1Text">
+          Select a one-time, recurring, deep clean, move-in/move-out, or office package in minutes.
+        </p>
+      </div>
+
+      <div class="process-card card" data-animate>
+        <div class="process-number">2</div>
+        <h3 data-i18n="process.step2Title">Pick a convenient time</h3>
+        <p data-i18n="process.step2Text">
+          Book a preferred date and we confirm quickly with transparent pricing and clear service details.
+        </p>
+      </div>
+
+      <div class="process-card card" data-animate>
+        <div class="process-number">3</div>
+        <h3 data-i18n="process.step3Title">Enjoy a spotless space</h3>
+        <p data-i18n="process.step3Text">
+          Our trained team arrives on time, cleans thoroughly, and leaves your space refreshed and ready.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-badges">
+  <div class="container badge-grid">
+    <div class="badge-item" data-animate>
+      <div class="badge-icon"><i data-lucide="badge-check"></i></div>
+      <strong data-i18n="badges.insured">Insured &amp; Trusted</strong>
+    </div>
+
+    <div class="badge-item" data-animate>
+      <div class="badge-icon"><i data-lucide="leaf"></i></div>
+      <strong data-i18n="badges.eco">Eco-Friendly Products</strong>
+    </div>
+
+    <div class="badge-item" data-animate>
+      <div class="badge-icon"><i data-lucide="shield-check"></i></div>
+      <strong data-i18n="badges.guarantee">Satisfaction Guarantee</strong>
+    </div>
+
+    <div class="badge-item" data-animate>
+      <div class="badge-icon"><i data-lucide="clock-3"></i></div>
+      <strong data-i18n="badges.flexible">Flexible Scheduling</strong>
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="about">
+  <div class="container about-grid">
+    <div>
+      <div class="section-heading align-left">
+        <span class="eyebrow" data-i18n="about.eyebrow">About Us</span>
+        <h2 data-i18n="about.title">Luxury-level cleaning with a human touch.</h2>
+        <p data-i18n="about.subtitle">
+          We combine modern systems, vetted professionals, and detail-first cleaning
+          standards to deliver a premium service experience every time.
+        </p>
+      </div>
+
+      <div class="about-cards">
+        <div class="mini-card card" data-animate>
+          <h3 data-i18n="about.card1Title">Meticulous Standards</h3>
+          <p data-i18n="about.card1Text">
+            Every room follows a clear quality checklist for consistency and care.
+          </p>
+        </div>
+
+        <div class="mini-card card" data-animate>
+          <h3 data-i18n="about.card2Title">Friendly Professionals</h3>
+          <p data-i18n="about.card2Text">
+            Our team is punctual, respectful, and trained to protect your space.
+          </p>
+        </div>
+
+        <div class="mini-card card" data-animate>
+          <h3 data-i18n="about.card3Title">Simple Booking</h3>
+          <p data-i18n="about.card3Text">
+            Choose your service, date, and details in just a few clicks.
+          </p>
+        </div>
+
+        <div class="mini-card card" data-animate>
+          <h3 data-i18n="about.card4Title">Tailored Plans</h3>
+          <p data-i18n="about.card4Text">
+            From weekly upkeep to one-time deep cleans, we adapt to your needs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card primary" data-animate>
+        <img class="img_1" src="images/standars.png" alt="Standars">
+      </div>
+      <div class="stat-card neutral card" data-animate>
+        <img class="img_2" src="images/professional.png" alt="Friendly-Professional">
+      </div>
+      <div class="stat-card neutral card" data-animate>
+        <img class="img_3" src="images/simple booking.png" alt="Simple Booking">
+      </div>
+      <div class="stat-card success" data-animate>
+        <img class="img_4" src="images/Tailored plans.png" alt="Tailored Plans">
+      </div>
+    </div>
+  </div>
+</section>
+     <section class="section section-soft" id="services">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow" data-i18n="services.eyebrow">Services</span>
+      <h2 data-i18n="services.title">Cleaning plans built around your lifestyle.</h2>
+      <p data-i18n="services.subtitle">
+        Choose from flexible services designed for apartments, family homes, offices,
+        and specialty cleaning needs.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="house"></i></div>
+        <h3 data-i18n="services.card1Title">Residential Cleaning</h3>
+        <p data-i18n="services.card1Text">
+          Spotless recurring and one-time home cleaning tailored to your schedule, preferences, and lifestyle.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="building-2"></i></div>
+        <h3 data-i18n="services.card2Title">Office Cleaning</h3>
+        <p data-i18n="services.card2Text">
+          Premium workplace cleaning that keeps your space fresh, professional, and ready for clients and teams.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="sofa"></i></div>
+        <h3 data-i18n="services.card3Title">Deep Cleaning</h3>
+        <p data-i18n="services.card3Text">
+          Detailed top-to-bottom cleaning for kitchens, bathrooms, living areas, and overlooked corners.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="droplets"></i></div>
+        <h3 data-i18n="services.card4Title">Move In / Out</h3>
+        <p data-i18n="services.card4Text">
+          Stress-free move-in and move-out cleaning that leaves every room polished and inspection-ready.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="leaf"></i></div>
+        <h3 data-i18n="services.card5Title">Eco-Friendly Cleaning</h3>
+        <p data-i18n="services.card5Text">
+          Safe and effective green products for families, children, pets, and environmentally conscious homes.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="service-card card" data-animate>
+        <div class="service-icon"><i data-lucide="sparkles"></i></div>
+        <h3 data-i18n="services.card6Title">Post-Construction</h3>
+        <p data-i18n="services.card6Text">
+          Dust, debris, and residue removal that transforms newly renovated spaces into move-in-ready rooms.
+        </p>
+        <a class="link-arrow" href="#booking">
+          <span data-i18n="services.bookService">Book this service</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+      <section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow" data-i18n="compare.eyebrow">Before &amp; After</span>
+      <h2 data-i18n="compare.title">A visible difference you can feel instantly.</h2>
+      <p data-i18n="compare.subtitle">
+        Showcase your value with a strong visual comparison block that highlights the transformation your service delivers.
+      </p>
+    </div>
+
+    <div class="comparison-grid">
+      <div class="comparison-card card" data-animate>
+        <div class="comparison-top before" data-i18n="compare.before">Before</div>
+        <div class="comparison-body before">
+          <div class="comparison-placeholder">
+            <img class="before" src="images/before.png" alt="before cleaning">
+          </div>
+        </div>
+      </div>
+
+      <div class="comparison-card card" data-animate>
+        <div class="comparison-top after" data-i18n="compare.after">After</div>
+        <div class="comparison-body after">
+          <div class="comparison-placeholder">
+            <img class="after" src="images/after.png" alt="after cleaning">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="pricing">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow" data-i18n="pricing.eyebrow">Pricing</span>
+      <h2 data-i18n="pricing.title">Transparent plans with no hidden surprises.</h2>
+      <p data-i18n="pricing.subtitle">
+        Simple packages designed to help visitors compare quickly and book with confidence.
+      </p>
+    </div>
+          <div class="pricing-grid">
+  <article class="pricing-card card" data-animate>
+    <h3 data-i18n="pricing.basicTitle">Basic</h3>
+    <p class="subtext" data-i18n="pricing.basicSubtext">Best for small apartments</p>
+    <div class="price-line"><strong>$99</strong><span data-i18n="pricing.perVisit">/ visit</span></div>
+    <ul class="feature-points">
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.basic1">Up to 2 rooms</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.basic2">Kitchen surface cleaning</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.basic3">Bathroom sanitization</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.basic4">Vacuum &amp; mopping</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.basic5">Standard supplies included</span></li>
+    </ul>
+    <a class="btn btn-dark" href="#booking" style="width: 100%; margin-top: 26px;">
+      <span data-i18n="pricing.chooseBasic">Choose Basic</span>
+    </a>
+  </article>
+
+  <article class="pricing-card card featured" data-animate>
+    <span class="popular-badge" data-i18n="pricing.popular">Most Popular</span>
+    <h3 data-i18n="pricing.premiumTitle">Premium</h3>
+    <p class="subtext" data-i18n="pricing.premiumSubtext">Most popular for family homes</p>
+    <div class="price-line"><strong>$179</strong><span data-i18n="pricing.perVisit">/ visit</span></div>
+    <ul class="feature-points">
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium1">Up to 5 rooms</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium2">Detailed kitchen cleaning</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium3">Bathrooms deep sanitized</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium4">Dusting all surfaces</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium5">Inside microwave &amp; appliances</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.premium6">Priority booking</span></li>
+    </ul>
+    <a class="btn btn-primary" href="#booking" style="width: 100%; margin-top: 26px;">
+      <span data-i18n="pricing.choosePremium">Choose Premium</span>
+    </a>
+  </article>
+
+  <article class="pricing-card card" data-animate>
+    <h3 data-i18n="pricing.eliteTitle">Elite</h3>
+    <p class="subtext" data-i18n="pricing.eliteSubtext">Complete deep clean experience</p>
+    <div class="price-line"><strong>$299</strong><span data-i18n="pricing.perVisit">/ visit</span></div>
+    <ul class="feature-points">
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite1">Whole-home deep cleaning</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite2">Inside fridge on request</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite3">Baseboards &amp; detailing</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite4">Move in/out ready finish</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite5">Eco-friendly products</span></li>
+      <li><span class="feature-check"><i data-lucide="check"></i></span><span data-i18n="pricing.elite6">Dedicated cleaning lead</span></li>
+    </ul>
+    <a class="btn btn-dark" href="#booking" style="width: 100%; margin-top: 26px;">
+      <span data-i18n="pricing.chooseElite">Choose Elite</span>
+    </a>
+  </article>
+</div>
+
+      <section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow" data-i18n="testimonials.eyebrow">Testimonials</span>
+      <h2 data-i18n="testimonials.title">Clients stay because the experience feels effortless.</h2>
+      <p data-i18n="testimonials.subtitle">
+        Social proof helps visitors trust the quality, professionalism, and consistency of your service.
+      </p>
+    </div>
+
+    <div class="testimonial-layout">
+      <div class="testimonial-main card" data-animate>
+        <div class="stars">
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+        </div>
+
+        <div class="testimonial-quote" id="testimonialQuote" data-i18n="testimonials.quote1">
+          “The team made my apartment look hotel-level clean...”
+        </div>
+
+        <div class="testimonial-meta">
+          <strong id="testimonialName">Sophia Carter</strong>
+          <span id="testimonialRole" data-i18n="testimonials.role1">Homeowner</span>
+        </div>
+      </div>
+
+      <div class="testimonial-tabs">
+        <button class="testimonial-tab active" data-testimonial="0">
+          <strong>Sophia Carter</strong>
+          <span data-i18n="testimonials.role1">Homeowner</span>
+        </button>
+        <button class="testimonial-tab" data-testimonial="1">
+          <strong>Daniel Brooks</strong>
+          <span data-i18n="testimonials.role2">Office Manager</span>
+        </button>
+        <button class="testimonial-tab" data-testimonial="2">
+          <strong>Maya Thompson</strong>
+          <span data-i18n="testimonials.role3">Busy Parent</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="faq">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+      <h2 data-i18n="faq.title">Everything your clients usually ask before booking.</h2>
+      <p data-i18n="faq.subtitle">
+        A simple accordion reduces friction, builds trust, and helps people move toward booking faster.
+      </p>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item card active" data-animate>
+        <button class="faq-question">
+          <span data-i18n="faq.q1">Do I need to be home during the cleaning?</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a1">Not at all...</p>
+        </div>
+      </div>
+
+      <div class="faq-item card" data-animate>
+        <button class="faq-question">
+          <span data-i18n="faq.q2">Do you bring your own cleaning products?</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a2">Yes...</p>
+        </div>
+      </div>
+
+      <div class="faq-item card" data-animate>
+        <button class="faq-question">
+          <span data-i18n="faq.q3">Can I customize the service?</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a3">Yes...</p>
+        </div>
+      </div>
+
+      <div class="faq-item card" data-animate>
+        <button class="faq-question">
+          <span data-i18n="faq.q4">What if I need to reschedule?</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a4">We offer flexible rescheduling...</p>
+        </div>
+      </div>
+
+      <div class="faq-item card" data-animate>
+        <button class="faq-question">
+          <span data-i18n="faq.q5">Are your cleaners insured and background checked?</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-i18n="faq.a5">Yes...</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+     <section class="section" id="booking">
+  <div class="container booking-grid">
+    <div class="contact-panel card" data-animate>
+      <p class="intro" data-i18n="booking.intro">Contact &amp; Booking</p>
+      <h3 data-i18n="booking.title">Ready for a cleaner, fresher space?</h3>
+      <p class="desc" data-i18n="booking.desc">
+        Fill out the form and our team will confirm your quote, availability, and service details quickly.
+      </p>
+
+      <div class="coverage-chips">
+        <span data-i18n="booking.chip1">Homes</span>
+        <span data-i18n="booking.chip2">Apartments</span>
+        <span data-i18n="booking.chip3">Studios</span>
+        <span data-i18n="booking.chip4">Airbnb turnovers</span>
+        <span data-i18n="booking.chip5">Offices</span>
+        <span data-i18n="booking.chip6">Move-out cleans</span>
+      </div>
+
+      <div class="contact-list">
+        <div class="contact-item">
+          <div class="contact-icon"><i data-lucide="phone"></i></div>
+          <a href="tel:+4915901420764">+49 1590 1420764</a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i data-lucide="mail"></i></div>
+          <a href="mailto:info@crystalcleaning.com">info@crystalcleaning.com</a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Lichtenberg+10315+Berlin+Germany" target="_blank">
+            Lichtenberg 10315, Berlin, Deutschland
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i data-lucide="calendar-days"></i></div>
+          <span data-i18n="booking.hours">Mon - Sat · 8:00 AM - 19:00 PM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-panel card" data-animate>
+      <h3 data-i18n="booking.formTitle">Book your cleaning</h3>
+      <p data-i18n="booking.formDesc">Tell us about your space and preferred schedule.</p>
+
+      <form class="booking-form" id="bookingForm">
+        <div class="field">
+          <label for="name" data-i18n="booking.nameLabel">Full Name</label>
+          <input id="name" type="text" data-i18n-placeholder="booking.namePlaceholder" placeholder="John Carter" required />
+        </div>
+
+        <div class="field">
+          <label for="email" data-i18n="booking.emailLabel">Email</label>
+          <input id="email" type="email" data-i18n-placeholder="booking.emailPlaceholder" placeholder="john@email.com" required />
+        </div>
+
+        <div class="field">
+          <label for="phone" data-i18n="booking.phoneLabel">Phone</label>
+          <input id="phone" type="tel" data-i18n-placeholder="booking.phonePlaceholder" placeholder="+1 555 000 1234" />
+        </div>
+
+        <div class="field">
+          <label for="service" data-i18n="booking.serviceLabel">Service Type</label>
+          <input id="service" type="text" data-i18n-placeholder="booking.servicePlaceholder" placeholder="Deep Cleaning" />
+        </div>
+
+        <div class="field">
+          <label for="date" data-i18n="booking.dateLabel">Preferred Date</label>
+          <input id="date" type="date" />
+        </div>
+
+        <div class="field">
+          <label for="size" data-i18n="booking.sizeLabel">Home Size</label>
+          <input id="size" type="text" data-i18n-placeholder="booking.sizePlaceholder" placeholder="3 bed / 2 bath" />
+        </div>
+
+        <div class="field full">
+          <label for="message" data-i18n="booking.messageLabel">Additional Notes</label>
+          <textarea id="message" data-i18n-placeholder="booking.messagePlaceholder" placeholder="Tell us about pets, parking, priorities, or special requests..."></textarea>
+        </div>
+
+        <div class="field full">
+          <button class="btn btn-primary" type="submit" style="width: 100%; padding: 18px 26px;">
+            <span data-i18n="booking.submit">Request Booking</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+     <section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h3 data-i18n="finalCta.title">Enjoy a cleaner space without the stress.</h3>
+        <p data-i18n="finalCta.text">
+          From regular upkeep to deep cleaning, our team delivers reliable, premium results that make your home or office feel refreshed.
+        </p>
+      </div>
+      <a class="btn btn-secondary" href="#booking" style="background: rgba(255,255,255,0.16); color: white; border-color: rgba(255,255,255,0.26);">
+        <span data-i18n="finalCta.button">Book a Cleaning Today</span>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <div class="brand-logo">
+          <img src="images/logo.png" alt="CrystalCleaning Logo">
+        </div>
+        <div class="brand-text">
+          <strong>CrystalNest Cleaning</strong>
+          <span data-i18n="footer.brandTagline">Premium service. Premium results.</span>
+        </div>
+      </a>
+
+      <p style="max-width: 500px; margin-top: 18px;" data-i18n="footer.description">
+        Professional cleaning services designed to keep your home and workspace spotless, fresh, and comfortable. Our trained team delivers reliable results with attention to detail and care you can trust.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+      <div class="footer-links">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a>
+        <a href="#booking" data-i18n="nav.booking">Booking</a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4 data-i18n="footer.connect">Connect</h4>
+      <p>info@crystalcleaning.com</p>
+      <p>+49 1590 142064</p>
+      <p>Dannenalder Weg 18, 13439, Berlin, Deutschland</p>
+<div class="socials">
+  <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+  <a href="https://instagram.com/yourpage" target="_blank" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+</div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    © <span id="year"></span> CrystalCleaning.
+    <span data-i18n="footer.rights">All rights reserved.</span>
+    •
+    <span data-i18n="footer.devPrefix">Website developed by</span>
+    <a class="dev-link" href="https://github.com/ShahidW3b" target="_blank">ShahidW3b</a>
+  </div>
+</footer>
+
+<div class="floating-actions">
+  <a class="floating-btn whatsapp" href="https://wa.me/+4915901420764" target="_blank" rel="noopener noreferrer">
+    <i data-lucide="message-circle"></i>
+    <span data-i18n="floating.whatsapp">WhatsApp</span>
+  </a>
+
+  <a class="floating-btn book" href="#booking">
+    <i data-lucide="calendar-days"></i>
+    <span data-i18n="floating.bookNow">Book Now</span>
+  </a>
+</div>
+  </body>
+</html>
