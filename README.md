@@ -1,6 +1,8 @@
-# Personal Portfolio Website
+# A modern, user-focused cleaning service platform designed to streamline booking, service selection, and customer interaction for home and office cleaning.
 
-A modern personal portfolio website showcasing my projects, research, and technical skills in Artificial Intelligence and Cybersecurity.
+A modern, user-focused cleaning service platform designed to streamline booking, service selection, and customer interaction for home and office cleaning.
+
+The system provides a structured and intuitive experience that allows users to explore services, understand pricing, and book appointments efficiently.
 
 ---
 
@@ -13,7 +15,7 @@ A modern personal portfolio website showcasing my projects, research, and techni
 
 ##  Overview
 
-This portfolio serves as a central hub for presenting my academic work, technical projects, and research interests. It is designed with a clean and responsive interface to ensure a smooth user experience across devices.
+CrystalNest Cleaning is built as a complete service platform for cleaning businesses. It focuses on reducing friction in the booking process while improving clarity for customers.
 
 ---
 
@@ -27,16 +29,18 @@ This portfolio serves as a central hub for presenting my academic work, technica
 
 ##  Features
 
-- Responsive and user-friendly design  
-- Project and research showcase  
-- Structured and minimal layout  
-- Fast and lightweight performance  
+- Structured booking system  
+- Clear service categorization  
+- Responsive and mobile-friendly design  
+- Multilingual support (EN/DE)  
+- Clean UI with strong visual hierarchy  
+- Trust elements (ratings, guarantees, service highlights) 
 
 ---
 
 ##  Purpose
 
-The goal of this website is to highlight my work and provide a professional online presence in the fields of AI and cybersecurity.
+The purpose of this platform is to provide a clear and efficient way for users to explore cleaning services and book appointments through a structured, user-friendly interface.
 
 ---
 
