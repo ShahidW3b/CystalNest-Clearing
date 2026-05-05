@@ -1,4 +1,4 @@
-# A modern, user-focused cleaning service platform designed to streamline booking, service selection, and customer interaction for home and office cleaning.
+# CrystalNest Cleaning Platform
 
 A modern, user-focused cleaning service platform designed to streamline booking, service selection, and customer interaction for home and office cleaning.
 
